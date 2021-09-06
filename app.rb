@@ -14,5 +14,6 @@ get "/another" do
 end
 
 get '/cat' do
+  @random_name = %w(Amigo Misty Almond).sample
   erb(:index)
 end

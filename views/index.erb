@@ -1,4 +1,11 @@
-<h1>Hey there friend, <%= @random_name %>
+<% if @name %>
+<h1>Hey my name is <%= @name %></h1>
+<% end %>
 <div style='border: 3px dashed red'>
   <img src='https://i.imgur.com/jFaSxym.png'>
 </div>
+
+<%# <h1>Hey there friend, <%= %w(Amigo Misty Almond).sample %></h1>
+<%# <div style='border: 3px dashed red'>
+  <img src='https://i.imgur.com/jFaSxym.png'>
+</div> %> %>
